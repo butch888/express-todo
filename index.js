@@ -27,7 +27,7 @@ app.use('/', isdoneTaskRouter);
 // удалить задачу по id
 app.use('/', delTaskRouter);
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server has started on PORT: ${PORT}`)
 });
